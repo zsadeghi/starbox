@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    password: mn32205
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost/starbox?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST&useSSL=false
   jpa:
