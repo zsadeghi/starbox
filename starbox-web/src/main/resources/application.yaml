@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: mn32205
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/starbox?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST&useSSL=false
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL57InnoDBDialect
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    org.springframework: info
+    org.hibernate: off
